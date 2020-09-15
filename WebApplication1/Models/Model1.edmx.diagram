@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="13926e04e83a449586b19c0cf75b5f7b" Name="Diagram1">
+        <EntityTypeShape EntityType="dbemarktingModel.admin_for_blogerr" Width="1.5" PointX="5.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbemarktingModel.blog" Width="1.5" PointX="8" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbemarktingModel.tbl_admin" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbemarktingModel.tbl_category" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbemarktingModel.tbl_product" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbemarktingModel.tbl_user" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <AssociationConnector Association="dbemarktingModel.FK__blog__adblog__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="dbemarktingModel.FK__tbl_categ__cat_f__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="dbemarktingModel.FK__tbl_produ__pro_f__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="dbemarktingModel.FK__tbl_produ__pro_f__32E0915F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
